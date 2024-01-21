@@ -67,7 +67,7 @@ function checkwin() {
 
 function updateSpeed() {
   // Calculate the new speed
-  speed = Math.max(initialSpeed - (8 - currentRowIndex) ** 2 * 9, 50);
+  speed = Math.max(initialSpeed - (8 - currentRowIndex) ** 2 * 9, 75);
 
   // Output the current speed to the console (for testing)
   console.log(speed);
