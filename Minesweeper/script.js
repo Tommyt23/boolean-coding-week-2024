@@ -71,7 +71,7 @@ function endGame(isVictory) {
   }
 
   revealAllBombs();
-  // endGameScreen.classList.remove('hidden');
+  endGameScreen.classList.remove('hidden');
 }
 
 // Function to reveal all bombs
